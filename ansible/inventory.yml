@@ -7,4 +7,4 @@ all:
         web1:
           ansible_host: 143.198.79.54
         web2:
-          ansible_host: 104.248.133.80
+          ansible_host: 165.232.130.191
