@@ -6,5 +6,9 @@ all:
       hosts:
         web1:
           ansible_host: 143.198.79.54
+          vars:
+            SERVER_MESSAGE: Server1
         web2:
           ansible_host: 165.232.130.191
+          vars:
+            SERVER_MESSAGE: Server2

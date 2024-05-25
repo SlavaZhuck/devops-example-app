@@ -25,7 +25,7 @@
           - 3000:3000
         env: # Настраиваем
           NODE_ENV: production
-
+          SERVER_MESSAGE: "{{ SERVER_MESSAGE }}"
     - community.docker.docker_container:
         name: caddy
         image: "slavazhuck/devops-example-caddy:{{ version }}"
